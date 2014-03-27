@@ -1,7 +1,6 @@
 .steps-indicator {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 0;  
   left: 0;
   height: 30px;
   padding: 0;
@@ -165,4 +164,10 @@
 
 .steps-indicator li.editing a:before {
   background-color: #ff0000;
+}
+
+/*my custom styles*/
+.steps section {
+  margin: 0;
+  padding: 0
 }
